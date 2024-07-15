@@ -1,0 +1,729 @@
+[
+     {
+          "Id": "39aa10c19118cdc098810fe305718c48db6b6971e3e62ff678ef6f1e0e2298c0",
+          "Digest": "sha256:d2818c4a77e216c7f4609821dd57e4d468316d1d77a168fe2df941cc2593b2a2",
+          "RepoTags": [
+               "localhost/bazzite-dc:latest"
+          ],
+          "RepoDigests": [
+               "localhost/bazzite-dc@sha256:d2818c4a77e216c7f4609821dd57e4d468316d1d77a168fe2df941cc2593b2a2"
+          ],
+          "Parent": "e24f32f7db52e6b1fc279f553d2495070d1097a202a88b8ae0836170db392c6d",
+          "Comment": "",
+          "Created": "2024-07-05T08:27:05.715155596Z",
+          "Config": {
+               "Env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+               ],
+               "Cmd": [
+                    "/usr/bin/bash"
+               ],
+               "Labels": {
+                    "containers.bootc": "1",
+                    "io.artifacthub.package.logo-url": "https://raw.githubusercontent.com/ublue-os/bazzite/main/repo_content/logo.png",
+                    "io.artifacthub.package.readme-url": "https://github.com/hhd-dev/bazzite-dc",
+                    "io.buildah.version": "1.36.0",
+                    "org.opencontainers.image.created": "2024-04-27T22:17:38.238Z",
+                    "org.opencontainers.image.description": "Bazzite: Director's Cut is a Bazzite edition based on a stable build of bazzite-deck, with an up-to-date Handheld Daemon + other niceties.",
+                    "org.opencontainers.image.licenses": "Apache-2.0",
+                    "org.opencontainers.image.revision": "73767033781092babe57d208b2a0f69e5281344a",
+                    "org.opencontainers.image.source": "https://github.com/hhd-dev/bazzite-dc",
+                    "org.opencontainers.image.title": "bazzite-dc",
+                    "org.opencontainers.image.url": "https://github.com/hhd-dev/bazzite-dc",
+                    "org.opencontainers.image.version": "0.1_",
+                    "ostree.bootable": "true",
+                    "ostree.commit": "0d476d05cb5bd0487d353d7a049e2696fdea0a5e63d2aab5e1025be6283267ea",
+                    "ostree.final-diffid": "sha256:12787d84fa137cd5649a9005efe98ec9d05ea46245fdc50aecb7dd007f2035b1",
+                    "ostree.linux": "6.8.7-302.fsync.fc40.x86_64",
+                    "quay.expires-after": "4w",
+                    "rpmostree.inputhash": "560d7fd10f99c8932c7c9685f1c541063ce6e5c86e244bf1982ba28ca54fd475"
+               }
+          },
+          "Version": "",
+          "Author": "",
+          "Architecture": "amd64",
+          "Os": "linux",
+          "Size": 13660935439,
+          "VirtualSize": 13660935439,
+          "GraphDriver": {
+               "Name": "overlay",
+               "Data": {
+                    "LowerDir": "/run/media/dev/antheas_ssd/Containers/root/overlay/be96a2f0f8cb0f2432e574397603b6a3d21bf903e88cdd561426dda8859a0c58/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/1d91e4088c020c452d563c7ad89410d3d3b827723f1257da4b538c35004bd153/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/cde02bf3768ae39ab65c6138ad6f6c432e33fcc88148e09fcc6fe395d9d1d241/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/ce119b48e80baedf551d4945c11388f625ee12f2b0de1bf4bc53f70c6a14c7ae/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/c1126d66dfc3829bdc1906027328c1a89e35d682c85deb814bc4a6a6bdf8efd1/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/60d109b3ecba6c69cb53b7edbdca24deb8e0d40f3f1ecedc15f5fc76ede62f74/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/8d8122cfe3321e7eebe689c1eb65d02e9889375a09dd8a6176d30a74d276f9b8/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/cc8aadb785712cfd07c8bf88f603858dfde4dd5826fba4939aefa91131a9f942/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3effc770ac914a6d909dbace6456d2a394fdbefb9bc264898531cf2b2bb034a3/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/702e0f9aa8066379434d668468e2317805a239210b1c62346a26877991a0fd3d/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/adc95a117751cfa2bd941df2516297a8749f8ee45453e7016810b06c0709d329/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/2da736bef91f517814a643a7ceeaf8abb39338d81160362fe8227d26657463f5/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/39a4f98894faeefdd2b53cf2290db4e5f0ceaf9d3e5d88dc251a3ad9087aecff/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/4997f049f2571c0c6a141777830bc98ec8bbf2f0cefb432717e2701d8093e3bc/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/f2565428dec66685ee1c7ee12d5edbeabe86bfdaee9dddea0fd3fd03149046d3/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/c9ed96810e879e634a27307e0cab913ec5e9a838c0903307ba03549131e210ea/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3afde92eb8228f42cec788055ae6ba70a770dc39092be01a2330ed21a2b689ba/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/e162e3048478234c4d353a76cb44550959504d53340ecae59db4cb4eafb12e83/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/332f12fd0b1d15fd10052a549244d226c0a8f41244270371e014ada9d99ffa72/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/a69df1c3a61707db278c62a5fb42290c92e72890366caa70c8cb83ad789b375e/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/7c34f7d97b9a504661f6460d8c6e95412de76d198bc14dada91e7d18facd44d3/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/870d0542b18f2d286054cdae35bb61b645910838a16ddf97a7b45c186c551b21/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/71f9438dababd2b52e897639fcdbe581777dd5ce2469351e380e6391141bd17d/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3ba0f50db875a439e8d4b74c05e05a337d42c3f0babdda9873f1a67289b844e6/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/d6e50c5441c788dfe9414b50f78ac2fc007ca29dc43c656f7afd2e01ddbed75d/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/0592fb9cfafdcde5c4dd410151b584519c2144b331142174f1db57d236ec9d05/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/8449d987f9c214e85be65bcadd659a029b7d477baf8561d720fae7f48f7d2fb1/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/5db6bdbddddfecac85858bded1cc9b3a3ffe622592ad10dce37f82d8b2f14cbe/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/abd62329d5e820bf0ab8b6dd6b3376c375099af2cf75df865eb7f0adbbb9c48a/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/c5e356c31d17dbc4fa9dae5edc86389c40ae82228e96f17a06cc3f3f6a19f355/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/a23417c1c7e5acfac717af47beb885b2a6f5dba10174d6ea8cc0f9010d56ad4b/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/de046b89e19765c55b6c6baf362c7fdbaf198bc31fcf77711759c9da98f8792e/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/a0a7b4a18b896500ab0ef1d52fe92baed33714a76c76a7f8fce3629942a96d14/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/f596c01b4e5287c5563ab163d1fafcd7bb400db65b498449f2bcf8e5e77cc2bc/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/2932bda16a156b73e529cb5fb7a5cecd46d357bb38f9f32562bd2f2e61763e35/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3a88c1ac96693fd5c757c5549d158b2e91065e0c95ec1001d7f2319355066f04/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/5fc1a071ecdcb7a87e6ea07a6c740ddf0d16cf0222e51d409f3c08014bd3d8c7/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/b7f7507930ee75a45e115a06ca413e4e73722389fcfe5fe17a98cd3a8798d3fd/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3206e9b6faa21832629047732bb7a1827a9e7b4edd58eb1106e8bd9819eaa5ca/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/e8b6715e818e63216745f3e187ef4a86f3071cf1e2e83bf2dc4868fd66a4a523/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/863fb24c66d66af84c91db94a2e2e5a998955521c8facf08ed91d5c42b25e4a2/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/8b281e481f310d51da098e419dbd0398cd77bfa1d5a42c0b5957e2ba2d184646/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/1ccda8df01b880b71fca175945c36d1b5ae91c16483cd6b5b75dce93c60e1416/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/58319dca74146b3c1828447fd07f0ecc3e031c427d2404de8bf1a2a231c0153f/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/39298585bdfbbe52a54d717187172c446e66d228270205144166d1ac4c31e5b9/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/b01cca238e7415a3b51037174c5d0ba4c2733ba7e50c1f785bc3c4fdd313c86e/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/491167a0995b298785b52fa2678b4ea58154d689a31873369ae135eb9d10d89e/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/1b9371071261a0fa60bbf8bdc171dd7bcf5d50febf808a5939f1be9292443fe2/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/dea236c5e4e221e63c4e613fccb13e1c6be6b99d909026ec9f0a2e99d6bcca0f/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/be00809e7061a75e2f564d380701d8caddb249fab388bf3a352286638c45d7ec/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/b9b771c621b29bfda0706740a0b82da30c960bc1344fbc188f7fc3b88f09d8aa/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/13587e6b0cd8ec9ef0acb4351a44cde713837dd3ea6f004e24b5f5cdb063da68/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/e8a81f861f8fe415c79f05e101292a4e54a1bc183c9af6f17edce94193dec709/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/064cdb6a5734fc52e2973c51a99169089962ebc7c6cb6c1bb7660d5f5cca32a6/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/55faf2a24b22b0fd340fe5436d242f8b3fdd3f2fddb13bae56c44e41247fe96f/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/441e9723ad004417dc5d6060bd81a6673ccf3564be7e2759305301d80a06e5da/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/0c797d7add6c4b66902b6b535ead7480b5eb6464bbed3383e707026595bb9c7d/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/33ed0d3d29d5de3d7f68ca08ca2231bc8a604a7d4b6d3e02b3348a4bb7f34b3b/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3985439f029d2420617ee4c6cafb366df787e5ba4275595c2bdf6ccc88feb77d/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/8fc2d39e543940c516ff2284b4fd116876b8dfbef401192baf40d8994f26e495/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/bc46b386ce6054dbe42d446e3ee6da228e1b6c1f4bc4f9ce99733625b022277d/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/ab2d7e928d5e6dd210193bbcfbaa2dfe8ca7dc3885ec8cd8194b7c2ae749e90e/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/f5576f9e7af659096b23f358a07e19652f1adc14fcee86baaf2aed6fbdeee7e0/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/ece785cb70a3cf35e937a1a33675998debb791ac04544b853214e63402de5db2/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/73bc2eb163d34797a66fab691e97bd193d969978bb40dd0008ba3ab4a3457cea/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/df1905e5f9fc1cb70e2fd32ec2fea39fe17a14e1ff0cc794dbac2bd64725e575/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/0c103b6f3348cfccd87a94b0cf3d475a552453e9302e2967f3044f8618357f76/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/c1d4b20bf2da134658acbbc4388bc989ec86b014007668e0cbec4b0f4b47677b/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/038fabea524a3533fa89f49009cc5783ad4eaeeaae4b52ef1c2a8913e8ed79d2/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/3d258942ed80c9af4a6e33caae5eda1e20800dd45ff68fb3b0bc7dd4eb30c93c/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/4a6076dff66008e96c98f587dc8476e775b704d55f330eb0724bf39c6e25faa9/diff:/run/media/dev/antheas_ssd/Containers/root/overlay/7693d901cf019f01434f88eddc8503fd75ea97b6d1ed6ac14099a1af87c82500/diff",
+                    "UpperDir": "/run/media/dev/antheas_ssd/Containers/root/overlay/cad83c5626d06a11d872a0ebba36926a62fc52da33467209466c927d694b6d3e/diff",
+                    "WorkDir": "/run/media/dev/antheas_ssd/Containers/root/overlay/cad83c5626d06a11d872a0ebba36926a62fc52da33467209466c927d694b6d3e/work"
+               }
+          },
+          "RootFS": {
+               "Type": "layers",
+               "Layers": [
+                    "sha256:7693d901cf019f01434f88eddc8503fd75ea97b6d1ed6ac14099a1af87c82500",
+                    "sha256:ca82fc2f70b4d50bf9220bc154592286b42cecfe5cad3f2112bb4e9146b2657f",
+                    "sha256:2621e48bf55e3fc022b21819398b3d50aa5451a00969a2c58b8fd0629c321cb8",
+                    "sha256:49207625e1098c64df92198affef14e3c877657ca706110cf561793eaf8248e1",
+                    "sha256:15ac77b37f403df5a9f97e5084c8032663b7c2bd4d4a6715a4a20ded46bdc4ba",
+                    "sha256:32b270505db9cc94ef008bfeb528595933c8ff3e29de2ad16b1b859a562f53dd",
+                    "sha256:71a38675245023aac9d9046c075cb5fced0f551d56f56eb1744c88412b0a2eec",
+                    "sha256:19553450f51d30c02fb1db5f4bafb035f40ab8a85151f0ac1acd3a8f910e8950",
+                    "sha256:e221ad93adf50a9af622fe8678414b0c618a422863bb7cd7c2cf3aa9c56ec29e",
+                    "sha256:057e6d7c9cf892887da36d77956c2ec0447eb436bc0c568d1944679cde262083",
+                    "sha256:c5ce3d347c05f18856c6fca02b2d394399bcca57c9b616faa0ca421fceb84cc7",
+                    "sha256:71885d6c731913d86a703a69d66874a436377a60254b0d076fde00aaea4521e8",
+                    "sha256:e5be975dcc6e34c8235764ffac1d77aa932a6578e91cee3402be9af6e8743424",
+                    "sha256:c510d418a6b52edc051973c563cb6504e7145a7ac846d40c34afceced41de6c5",
+                    "sha256:b95e8904a00602baa5b61c9ca76d5e7e27e44272e825766c6383d38b21baed12",
+                    "sha256:b0219bf18710e4b7194ec4d8df0b80056e53eb14752eb6765bc0b2bcdf47d7f3",
+                    "sha256:6332ddbfb2f8ee64eb8946a87d38a80ae4f6709333e020c7dec61466239a876d",
+                    "sha256:c4bce240728236567af8453c59eef1eee0dcd94b38aba2b24d196e4ce99c5f1b",
+                    "sha256:7ac1838a3135282427e0f0d9b2ccfa317d8ec96bc6e541258b5aff5da5c1ba8e",
+                    "sha256:8e0e5be6d25cb7685329b2b565aebb8ae12573f461bfbd1cd209ddb25245bd05",
+                    "sha256:c3a59bab9a6ee9cff260910551d27f14ca1390ecb28e257a8aa66ff11786f4ed",
+                    "sha256:db10169626cca2938a6671847dfb88d202ed5b151f44e392c45d80d32bb1e512",
+                    "sha256:fa00a36129094fda6174b8ade52e956d4e11ec945d428cd30af38f5288be700f",
+                    "sha256:b9ffe4348403401892fb011f575d40d58b7d5651a3c97cdbe6f5c90659d80c2c",
+                    "sha256:02a80c7f1ff0bf1c986336c11a35c2f71f556946dd065067911a7edff84256e2",
+                    "sha256:9cf524c7b562f7a026ee1066792536b810f3d63a2ccf108e4b07a45247ba0e2f",
+                    "sha256:f8d490f19a8ed4735d0ce14c620c3f0e41f20ec485f972deaa1bd607cb2d86f9",
+                    "sha256:a75e33a232795db076f207b1f1967e7d573c661c603d8d4aaa412ff100a04afb",
+                    "sha256:56003ea0a168aadffbaadabf9f07e926bb4a5b5a560d0834629b0f6ecec2de92",
+                    "sha256:b3b1c5aba85ba801d91d04f00091381bb8e28fd93b595c094b6e51e3e48a7001",
+                    "sha256:c180314d13488858087de9a55763146a44273580d951b9ce06fe5a2da3b1f830",
+                    "sha256:ac058f9290217ada8e9d015e6323ba1dd719e1a2fa2a09ab7cbc3cb982683ec2",
+                    "sha256:6dade181e1da3c8a9b3b11997fbe5ea932dfc1f3d3cbdfc570890a81a1963af2",
+                    "sha256:c10bf3fc1ce1140d1bba4391fe040d0085510cacaf4d5f3a285cb6178ad96a7c",
+                    "sha256:45a05d72552f8d6d15ac013d15d95422d94903417bd170b719b01a20e647c9c9",
+                    "sha256:e20699b79f652a66242fc4eb7ea8fb77bff725a5270f951e9b0deec0b7351675",
+                    "sha256:abd6a20f28b2c39adc132ae78de4506a48937d2343050b96713216cb29fa6050",
+                    "sha256:bc849cebba4a4f081fad0165b0261202cc6692f699ad416735a3c453e8cd2177",
+                    "sha256:fa628660c9dc201e4fe243ea7c7f50348183a289037bb651844076878976fc49",
+                    "sha256:80ba65414cd750b87e56abc82ec77b55b9024208ec544cf23f21cff3f24bac33",
+                    "sha256:95ef39c14cf01be7effbf33f508838b3e05dc63d00aad99a4fdc0ebdf80e6383",
+                    "sha256:2d741803956b09f4f370a8082a8076d89dfb30ba9b693f5412f9f55a0f5aa0be",
+                    "sha256:87d011846ec02accec60a52ae2c4589cef3002cdc42a51727816bcae59e90161",
+                    "sha256:49355b0e0d14fc2bc382ff53f1fee59d70dc7dc6a1438d35d1e37f0194bbaa1c",
+                    "sha256:01dad5346e162ecddc467dc2d23c8e3b3084b0ea04f0f0ddbb7704dc79b1b320",
+                    "sha256:0f92bd63d566d5ddd4851b81b164ffa5b97b629ae828f16b1ee87591d67123ac",
+                    "sha256:228da1d036b7f28a374a9dedc7f29bca68ff9b7511bf076c77ec98f22cfba180",
+                    "sha256:df36c647173431a1a268c66baf438dfa5d033e79f7cef15f4d77db10124aea34",
+                    "sha256:ec637368be9158565e181579bfc04e0cb5ebb003485f861cb48605a6e5d98ef7",
+                    "sha256:99a072d1591486633e35f46a4c53166ff0cfd0703049c05f5e6d4feadc5ab5c7",
+                    "sha256:845d27b614eb37ae5a0f929a4dcc4fd9c6a51d7a3fdce334e1958318ef72da6b",
+                    "sha256:e624721b637681a59f83136d879b6628aa7b82c4a39c0598bc9572fcc4ed5e17",
+                    "sha256:b146a427583b0e09bd67457f55f4a8b63595bffad75794a5b6cb5cd22e9f8f0b",
+                    "sha256:5035ddae408dc161be98326dc618b33cb40430b05ecdcb5e80efa49516a3c794",
+                    "sha256:a5d85d75ccec9b7c9b8c92abca7016a855078a1dd989ae7e2ccefb96756fb070",
+                    "sha256:7de5cefb8e2bbb5dbbf5017cdce43db7d35d4ee5b8420fba6643150e1d39dbe0",
+                    "sha256:522e242d96ae37a354080d96930bbb45377db73f2d78b14c2fb9f5fa661269bb",
+                    "sha256:135f2df4f1d591d583c76234264299cb38ecc91ba4b1909198e819cb50157195",
+                    "sha256:e5cd841e75dc020f36c27bad17fe6c871c02709a77a431bcc77c3f03c1cb0b76",
+                    "sha256:2da484ba597ebd934258865ddba321a39e651e3dd2befa84358fa580e890a32d",
+                    "sha256:ef2b323ae1e6d3f59d91a7eee3c80625aa47d5a39a83f8d26e7d132a3f454551",
+                    "sha256:f79248197936a0b0f1bb0f12c45a58bd49adfbb82d499b41a68e8c78ba63306a",
+                    "sha256:2214e07cd3c5777e8a49c509d5d93b70e00e0bb2f8d1253c82655132eaa08762",
+                    "sha256:0f55b572582f0568148c24954073d7933b88647d60a008a6ee85676a9975df39",
+                    "sha256:12787d84fa137cd5649a9005efe98ec9d05ea46245fdc50aecb7dd007f2035b1",
+                    "sha256:597b48665fb45e79355cd2f17f1efbcb6ee71bcc54aef7ec67cac566cb8fa438",
+                    "sha256:8e2cb0cf019daaf0e81e8fc1886850c2c0337c49914b1bfed28c69903b933398",
+                    "sha256:679c1cdae3c898f0cdde708512f3321db8188acf09730eeb1478d20d8902ef4b",
+                    "sha256:7cd56e53117893e448ae9e474bd1ab7f593d8fab9ed99c7fc4496b84ba8402ea",
+                    "sha256:c8f448ec555f6494a8378ca044147b0cf8e0c587f34b75096e42fc3f9fe8631f",
+                    "sha256:a373bf24c6c66d5b929fcfc39989b46b19e7ac9662b9b89cb6aed00201f2d11e",
+                    "sha256:963c3fc48227639614bb4593a364a52dbb1eef2072e4be4fb3616712eee40a44",
+                    "sha256:f8a2c6dd76ddc014392446bcd7fce441edfbe674fdb01219bd344ded95e10454"
+               ]
+          },
+          "Labels": {
+               "containers.bootc": "1",
+               "io.artifacthub.package.logo-url": "https://raw.githubusercontent.com/ublue-os/bazzite/main/repo_content/logo.png",
+               "io.artifacthub.package.readme-url": "https://github.com/hhd-dev/bazzite-dc",
+               "io.buildah.version": "1.36.0",
+               "org.opencontainers.image.created": "2024-04-27T22:17:38.238Z",
+               "org.opencontainers.image.description": "Bazzite: Director's Cut is a Bazzite edition based on a stable build of bazzite-deck, with an up-to-date Handheld Daemon + other niceties.",
+               "org.opencontainers.image.licenses": "Apache-2.0",
+               "org.opencontainers.image.revision": "73767033781092babe57d208b2a0f69e5281344a",
+               "org.opencontainers.image.source": "https://github.com/hhd-dev/bazzite-dc",
+               "org.opencontainers.image.title": "bazzite-dc",
+               "org.opencontainers.image.url": "https://github.com/hhd-dev/bazzite-dc",
+               "org.opencontainers.image.version": "0.1_",
+               "ostree.bootable": "true",
+               "ostree.commit": "0d476d05cb5bd0487d353d7a049e2696fdea0a5e63d2aab5e1025be6283267ea",
+               "ostree.final-diffid": "sha256:12787d84fa137cd5649a9005efe98ec9d05ea46245fdc50aecb7dd007f2035b1",
+               "ostree.linux": "6.8.7-302.fsync.fc40.x86_64",
+               "quay.expires-after": "4w",
+               "rpmostree.inputhash": "560d7fd10f99c8932c7c9685f1c541063ce6e5c86e244bf1982ba28ca54fd475"
+          },
+          "Annotations": {
+               "org.opencontainers.image.base.digest": "sha256:67bb1f9dd52a420f080fd67e71a60bb6f732c12bacab7d27476dfbdca601c757",
+               "org.opencontainers.image.base.name": "ghcr.io/ublue-os/bazzite-deck:40-20240427"
+          },
+          "ManifestType": "application/vnd.oci.image.manifest.v1+json",
+          "User": "",
+          "History": [
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "ostree export of commit 0d476d05cb5bd0487d353d7a049e2696fdea0a5e63d2aab5e1025be6283267ea"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "qt6-qtwebengine-6.7.0-2.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "glibc-all-langpacks-2.39-8.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "firefox-125.0.2-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "ibus-1.5.30~rc3-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "mesa-dri-drivers-24.0.5-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "llvm-libs-18.1.1-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "cldr-emoji-annotation-1:45~beta3-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "plasma-workspace-wallpapers-6.0.4-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "python3-botocore-1.34.78-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "mesa-vulkan-drivers-24.0.5-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "mariadb-server-3:10.11.6-3.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "geolite2-city-20191217-12.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "kernel-modules-6.8.7-300.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "firefox-langpacks-125.0.2-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "google-noto-serif-cjk-vf-fonts-1:2.002-4.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "google-noto-serif-fonts-20240301-2.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "iwlwifi-mvm-firmware-20240410-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "plasma-breeze-common-6.0.4-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "podman-5:5.0.1-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "linux-firmware-20240410-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "google-noto-sans-fonts-20240301-2.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "vlc-libs-1:3.0.20-12.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "python3-libs-3.12.2-2.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "qt6-qtdeclarative-6.7.0-2.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "nvidia-gpu-firmware-20240410-1.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "kernel-modules-core-6.8.7-300.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "libpinyin-data-2.8.1-7.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "plasma-workspace-6.0.4-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "cpp-14.0.1-0.15.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "libicu-74.2-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "unicode-ucd-15.1.0-2.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "google-noto-sans-cjk-vf-fonts-1:2.004-7.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "buildah-1.35.3-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "google-noto-sans-mono-cjk-vf-fonts-1:2.004-7.fc40.noarch"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "ibus-libzhuyin-1.10.3-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "hplip-3.23.12-6.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "586 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "gdb-headless-14.2-1.fc40.x86_64 and plasma-workspace-libs-6.0.4-1.fc40.x86_64 and mesa-va-drivers-24.0.5-1.fc40.x86_64 and systemd-255.4-1.fc40.x86_64 and systemd-udev-255.4-1.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "20 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "pipewire-libs-1.0.5-2.fc40.x86_64 and glibc-gconv-extra-2.39-8.fc40.x86_64 and glibc-2.39-8.fc40.x86_64"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "38 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "16 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "46 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "30 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "40 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "61 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "92 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "92 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "92 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "74 components"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "rpmostree-unpackaged-content and initramfs (kernel 6.8.7-300.fc40.x86_64)"
+               },
+               {
+                    "created": "2024-04-27T02:48:55Z",
+                    "created_by": "Reserved for new packages"
+               },
+               {
+                    "created": "2024-04-27T15:09:14.583117736Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_NAME=kinoite",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:09:14.583144977Z",
+                    "created_by": "/bin/sh -c #(nop) ARG FEDORA_MAJOR_VERSION=40 IMAGE_NAME=kinoite",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:09:14.583163291Z",
+                    "created_by": "/bin/sh -c #(nop) ARG FEDORA_MAJOR_VERSION=40 IMAGE_NAME=kinoite RPMFUSION_MIRROR=http://mirror.fcix.net/rpmfusion",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:09:14.78143216Z",
+                    "created_by": "/bin/sh -c #(nop) COPY multi:fd6c22913641f778808fff06e6efe08448d406c56466c1ad2fb17464adaea4f8 in /tmp/ ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:09:15.245524759Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:d8dbdbdb5faf34732a5e5eb2013abb1103c613864dcfde964245ea3ae6659036 in /tmp/rpms ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:09:15.701947424Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:2667d8be975fda22cfa37988a4732141c04888b50592d22966d603f251ac51c1 in /tmp/rpms ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:09:15.801934689Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:cfe9496ff043607dd43e3b8b3865b72c4543c79e6cb7f759bc0053c8539eed9f in /usr ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T15:10:11.630669595Z",
+                    "created_by": "|3 FEDORA_MAJOR_VERSION=40 IMAGE_NAME=kinoite RPMFUSION_MIRROR=http://mirror.fcix.net/rpmfusion /bin/sh -c mkdir -p /var/lib/alternatives &&     /tmp/install.sh &&     /tmp/post-install.sh &&     mv /var/lib/alternatives /staged-alternatives &&     rm -rf /tmp/* /var/* &&     ostree container commit &&     mkdir -p /var/lib && mv /staged-alternatives /var/lib/alternatives &&     mkdir -p /tmp /var/tmp &&     chmod -R 1777 /tmp /var/tmp",
+                    "comment": "FROM quay.io/fedora-ostree-desktops/kinoite:40"
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743157372Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_NAME=bazzite-deck",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743178421Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743212685Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743235568Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743256307Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743282115Z",
+                    "created_by": "/bin/sh -c #(nop) ARG BASE_IMAGE_NAME=kinoite IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.743310007Z",
+                    "created_by": "/bin/sh -c #(nop) ARG BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:39.917663496Z",
+                    "created_by": "/bin/sh -c #(nop) COPY multi:8058d1f7f95ae5eb9b461af189f8c86c20fc289e01e3010cdbbeefada1d4505a in / ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:17:40.954530695Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c curl -Lo /usr/bin/copr https://raw.githubusercontent.com/ublue-os/COPR-command/main/copr &&     chmod +x /usr/bin/copr &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-bazzite.repo https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-bazzite-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-bazzite-multilib.repo https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite-multilib/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-bazzite-multilib-fedora-\"${FEDORA_MAJOR_VERSION}\".repo?arch=x86_64 &&     curl -Lo /etc/yum.repos.d/_copr_ublue-os-staging.repo https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/ublue-os-staging-fedora-\"${FEDORA_MAJOR_VERSION}\".repo?arch=x86_64 &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-system76-scheduler.repo https://copr.fedorainfracloud.org/coprs/kylegospo/system76-scheduler/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-system76-scheduler-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-latencyflex.repo https://copr.fedorainfracloud.org/coprs/kylegospo/LatencyFleX/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-LatencyFleX-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-obs-vkcapture.repo https://copr.fedorainfracloud.org/coprs/kylegospo/obs-vkcapture/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-obs-vkcapture-fedora-\"${FEDORA_MAJOR_VERSION}\".repo?arch=x86_64 &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-wallpaper-engine-kde-plugin.repo https://copr.fedorainfracloud.org/coprs/kylegospo/wallpaper-engine-kde-plugin/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-wallpaper-engine-kde-plugin-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-vk_hdr_layer.repo https://copr.fedorainfracloud.org/coprs/kylegospo/vk_hdr_layer/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-vk_hdr_layer-fedora-\"${FEDORA_MAJOR_VERSION}\".repo?arch=x86_64 &&     curl -Lo /etc/yum.repos.d/_copr_ycollet-audinux.repo https://copr.fedorainfracloud.org/coprs/ycollet/audinux/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/ycollet-audinux-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-rom-properties.repo https://copr.fedorainfracloud.org/coprs/kylegospo/rom-properties/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-rom-properties-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-joycond.repo https://copr.fedorainfracloud.org/coprs/kylegospo/joycond/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-joycond-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_kylegospo-webapp-manager.repo https://copr.fedorainfracloud.org/coprs/kylegospo/webapp-manager/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/kylegospo-webapp-manager-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_hhd-dev-hhd.repo https://copr.fedorainfracloud.org/coprs/hhd-dev/hhd/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/hhd-dev-hhd-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_che-nerd-fonts.repo https://copr.fedorainfracloud.org/coprs/che/nerd-fonts/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/che-nerd-fonts-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_sentry-switcheroo-control_discrete.repo https://copr.fedorainfracloud.org/coprs/sentry/switcheroo-control_discrete/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/sentry-switcheroo-control_discrete-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_hikariknight-looking-glass-kvmfr.repo https://copr.fedorainfracloud.org/coprs/hikariknight/looking-glass-kvmfr/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/hikariknight-looking-glass-kvmfr-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_mavit-discover-overlay.repo https://copr.fedorainfracloud.org/coprs/mavit/discover-overlay/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/mavit-discover-overlay-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_matte-schwartz-sunshine.repo https://copr.fedorainfracloud.org/coprs/matte-schwartz/sunshine/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/matte-schwartz-sunshine-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/_copr_rok-cdemu.repo https://copr.fedorainfracloud.org/coprs/rok/cdemu/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/rok-cdemu-fedora-\"${FEDORA_MAJOR_VERSION}\".rep &&     curl -Lo /etc/yum.repos.d/_copr_rodoma92-kde-cdemu-manager.repo https://copr.fedorainfracloud.org/coprs/rodoma92/kde-cdemu-manager/repo/fedora-\"${FEDORA_MAJOR_VERSION}\"/rodoma92-kde-cdemu-manager-fedora-\"${FEDORA_MAJOR_VERSION}\".repo &&     curl -Lo /etc/yum.repos.d/tailscale.repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo &&     sed -i 's@gpgcheck=1@gpgcheck=0@g' /etc/yum.repos.d/tailscale.repo &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:20:40.962174357Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree cliwrap install-to-root / &&     if [[ \"${KERNEL_FLAVOR}\" =~ \"fsync\" ]]; then         echo \"will install ${KERNEL_FLAVOR} kernel from COPR\" &&         curl -Lo /etc/yum.repos.d/_copr_sentry-kernel-fsync.repo https://copr.fedorainfracloud.org/coprs/sentry/kernel-fsync/repo/fedora-$(rpm -E %fedora)/sentry-kernel-fsync-fedora-$(rpm -E %fedora).repo &&         rpm-ostree override replace         --experimental         --from repo=copr:copr.fedorainfracloud.org:sentry:kernel-fsync             kernel             kernel-core             kernel-modules             kernel-modules-core             kernel-modules-extra             kernel-uki-virt             kernel-headers             kernel-devel     ; else         echo \"will use kernel from ${KERNEL_FLAVOR} images\"     ; fi &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:20:43.175515159Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c mkdir -p /tmp/linux-firmware-neptune &&     curl -Lo /tmp/linux-firmware-neptune/cs35l41-dsp1-spk-cali.bin https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/cs35l41-dsp1-spk-cali.bin &&     curl -Lo /tmp/linux-firmware-neptune/cs35l41-dsp1-spk-cali.wmfw https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/cs35l41-dsp1-spk-cali.wmfw &&     curl -Lo /tmp/linux-firmware-neptune/cs35l41-dsp1-spk-prot.bin https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/cs35l41-dsp1-spk-prot.bin &&     curl -Lo /tmp/linux-firmware-neptune/cs35l41-dsp1-spk-prot.wmfw https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/cs35l41-dsp1-spk-prot.wmfw &&     xz --check=crc32 /tmp/linux-firmware-neptune/cs35l41-dsp1-spk-{cali.bin,cali.wmfw,prot.bin,prot.wmfw} &&     mv -vf /tmp/linux-firmware-neptune/* /usr/lib/firmware/cirrus/ &&     rm -rf /tmp/linux-firmware-neptune &&     mkdir -p /tmp/linux-firmware-galileo &&     curl https://gitlab.com/evlaV/linux-firmware-neptune/-/archive/jupiter-20231113.1/linux-firmware-neptune-jupiter-20231113.1.tar.gz?path=ath11k/QCA206X -o /tmp/linux-firmware-galileo/ath11k.tar.gz &&     tar --strip-components 1 --no-same-owner --no-same-permissions --no-overwrite-dir -xvf /tmp/linux-firmware-galileo/ath11k.tar.gz -C /tmp/linux-firmware-galileo &&     xz --check=crc32 /tmp/linux-firmware-galileo/ath11k/QCA206X/hw2.1/* &&     mv -vf /tmp/linux-firmware-galileo/ath11k/QCA206X /usr/lib/firmware/ath11k/QCA206X &&     rm -rf /tmp/linux-firmware-galileo/ath11k &&     rm -rf /tmp/linux-firmware-galileo/ath11k.tar.gz &&     curl -Lo /tmp/linux-firmware-galileo/hpbtfw21.tlv https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/qca/hpbtfw21.tlv &&     curl -Lo /tmp/linux-firmware-galileo/hpnv21.309 https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/qca/hpnv21.309 &&     curl -Lo /tmp/linux-firmware-galileo/hpnv21.bin https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/qca/hpnv21.bin &&     curl -Lo /tmp/linux-firmware-galileo/hpnv21g.309 https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/qca/hpnv21g.309 &&     curl -Lo /tmp/linux-firmware-galileo/hpnv21g.bin https://gitlab.com/evlaV/linux-firmware-neptune/-/raw/jupiter-20231113.1/qca/hpnv21g.bin &&     xz --check=crc32 /tmp/linux-firmware-galileo/* &&     mv -vf /tmp/linux-firmware-galileo/* /usr/lib/firmware/qca/ &&     rm -rf /tmp/linux-firmware-galileo &&     rm -rf /usr/share/alsa/ucm2/conf.d/acp5x/Valve-Jupiter-1.conf &&     if [[ \"${IMAGE_FLAVOR}\" =~ \"asus\" ]]; then         curl -Lo /etc/yum.repos.d/_copr_lukenukem-asus-linux.repo https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/repo/fedora-$(rpm -E %fedora)/lukenukem-asus-linux-fedora-$(rpm -E %fedora).repo &&         rpm-ostree install             asusctl             asusctl-rog-gui &&         git clone https://gitlab.com/asus-linux/firmware.git --depth 1 /tmp/asus-firmware &&         cp -rf /tmp/asus-firmware/* /usr/lib/firmware/ &&         rm -rf /tmp/asus-firmware     ; fi &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:20:43.403489878Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:e51cb7ebb69a65bd71d7a40208de5ead724c5e61fe270c56f4238cf618370ebf in /tmp/akmods-rpms ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:20:43.774917681Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:67ee405da26d79d294c42f55d2841552ea213a8ccde5d98abf845aac284717cd in /tmp/akmods-rpms ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:23:18.604348459Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo &&     curl -Lo /etc/yum.repos.d/negativo17-fedora-multimedia.repo https://negativo17.org/repos/fedora-multimedia.repo &&     rpm-ostree install         /tmp/akmods-rpms/kmods/*kvmfr*.rpm         /tmp/akmods-rpms/kmods/*xone*.rpm         /tmp/akmods-rpms/kmods/*openrazer*.rpm         /tmp/akmods-rpms/kmods/*v4l2loopback*.rpm         /tmp/akmods-rpms/kmods/*wl*.rpm         /tmp/akmods-rpms/kmods/*gcadapter_oc*.rpm         /tmp/akmods-rpms/kmods/*nct6687*.rpm         /tmp/akmods-rpms/kmods/*evdi*.rpm         /tmp/akmods-rpms/kmods/*zenergy*.rpm         /tmp/akmods-rpms/kmods/*vhba*.rpm         /tmp/akmods-rpms/kmods/*ayaneo-platform*.rpm         /tmp/akmods-rpms/kmods/*ayn-platform*.rpm         /tmp/akmods-rpms/kmods/*framework-laptop*.rpm         /tmp/akmods-rpms/kmods/*bmi260*.rpm         /tmp/akmods-rpms/kmods/*ryzen-smu*.rpm &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/negativo17-fedora-multimedia.repo &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:24:12.281037579Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree override replace     --experimental     --from repo=updates         vulkan-loader         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         alsa-lib         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         gnutls         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         glib2         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         gtk3         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         atk         at-spi2-atk         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libaom         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         gstreamer1         gstreamer1-plugins-base         gstreamer1-plugins-bad-free-libs         gstreamer1-plugins-good-qt         gstreamer1-plugins-good         gstreamer1-plugins-bad-free         gstreamer1-plugin-libav         gstreamer1-plugins-ugly-free         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         python3         python3-libs         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libdecor         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libtirpc         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libuuid         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libblkid         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libmount         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         cups-libs         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libinput         || true &&     rpm-ostree override replace     --experimental     --from repo=updates         libopenmpt         || true &&     rpm-ostree override remove         glibc32         || true &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:24:56.963462206Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree override remove         mesa-va-drivers-freeworld &&     rpm-ostree override replace     --experimental     --from repo=copr:copr.fedorainfracloud.org:kylegospo:bazzite-multilib         mesa-filesystem         mesa-libxatracker         mesa-libglapi         mesa-dri-drivers         mesa-libgbm         mesa-libEGL         mesa-vulkan-drivers         mesa-libGL         bluez         bluez-cups         bluez-libs         bluez-obexd         pipewire         pipewire-alsa         pipewire-gstreamer         pipewire-jack-audio-connection-kit         pipewire-jack-audio-connection-kit-libs         pipewire-libs         pipewire-pulseaudio         pipewire-utils &&     rpm-ostree install         mesa-va-drivers-freeworld         mesa-vdpau-drivers-freeworld.x86_64 &&     rpm-ostree override replace     --experimental     --from repo=copr:copr.fedorainfracloud.org:sentry:switcheroo-control_discrete         switcheroo-control &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:25:35.732263365Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree override remove         ublue-os-update-services         firefox         firefox-langpacks         htop &&     rpm-ostree override remove         power-profiles-daemon         || true &&     rpm-ostree override remove         tlp         tlp-rdw         || true &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:26:41.327714241Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree install         discover-overlay         python3-pip         libadwaita         duperemove         sqlite         xwininfo         xrandr         compsize         input-remapper         system76-scheduler         tuned         tuned-ppd         tuned-utils         tuned-gtk         tuned-profiles-atomic         tuned-profiles-cpu-partitioning         powertop         i2c-tools         udica         joycond         ladspa-caps-plugins         ladspa-noise-suppression-for-voice         python3-icoextract         tailscale         webapp-manager         btop         fish         lshw         xdotool         wmctrl         libcec         yad         f3         pulseaudio-utils         unrar         lzip         libxcrypt-compat         mesa-libGLU         vulkan-tools         glibc.i686         extest.i686         xwiimote-ng         twitter-twemoji-fonts         google-noto-sans-cjk-fonts         lato-fonts         fira-code-fonts         nerd-fonts         fastfetch         glow         gum         vim         zoxide         setools         setroubleshoot         cockpit-networkmanager         cockpit-podman         cockpit-selinux         cockpit-system         cockpit-navigator         cockpit-storaged         lsb_release &&     pip install --prefix=/usr topgrade &&     rpm-ostree install         ublue-update &&     mkdir -p /usr/etc/xdg/autostart &&     echo \"X-GNOME-Autostart-enabled=false\" >> /usr/etc/xdg/autostart/sealertauto.desktop &&     sed -i '1s/^/[include]\\npaths = [\"\\/etc\\/ublue-os\\/topgrade.toml\"]\\n\\n/' /usr/share/ublue-update/topgrade-user.toml &&     sed -i 's/min_battery_percent.*/min_battery_percent = 20.0/' /usr/etc/ublue-update/ublue-update.toml &&     sed -i 's/max_cpu_load_percent.*/max_cpu_load_percent = 100.0/' /usr/etc/ublue-update/ublue-update.toml &&     sed -i 's/max_mem_percent.*/max_mem_percent = 90.0/' /usr/etc/ublue-update/ublue-update.toml &&     sed -i 's/dbus_notify.*/dbus_notify = false/' /usr/etc/ublue-update/ublue-update.toml &&     sed -i 's@Name=tuned-gui@Name=TuneD Manager@g' /usr/share/applications/tuned-gui.desktop &&     curl -Lo /usr/bin/installcab https://raw.githubusercontent.com/KyleGospo/steam-proton-mf-wmv/master/installcab.py &&     chmod +x /usr/bin/installcab &&     curl -Lo /usr/bin/install-mf-wmv https://github.com/KyleGospo/steam-proton-mf-wmv/blob/master/install-mf-wmv.sh &&     chmod +x /usr/bin/install-mf-wmv &&     curl -Lo /usr/share/thumbnailers/exe-thumbnailer.thumbnailer https://raw.githubusercontent.com/jlu5/icoextract/master/exe-thumbnailer.thumbnailer &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:28:03.185521511Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree install         at-spi2-core.i686         atk.i686         vulkan-loader.i686         alsa-lib.i686         fontconfig.i686         gtk2.i686         libICE.i686         libnsl.i686         libxcrypt-compat.i686         libpng12.i686         libXext.i686         libXinerama.i686         libXtst.i686         libXScrnSaver.i686         NetworkManager-libnm.i686         nss.i686         pulseaudio-libs.i686         libcurl.i686         systemd-libs.i686         libva.i686         libvdpau.i686         libdbusmenu-gtk3.i686         libatomic.i686         pipewire-alsa.i686         clinfo &&     sed -i '0,/enabled=1/s//enabled=0/' /etc/yum.repos.d/fedora-updates.repo &&     rpm-ostree install         mesa-vulkan-drivers.i686         mesa-va-drivers-freeworld.i686         mesa-vdpau-drivers-freeworld.i686 &&     sed -i '0,/enabled=0/s//enabled=1/' /etc/yum.repos.d/rpmfusion-nonfree-steam.repo &&     sed -i '0,/enabled=1/s//enabled=0/' /etc/yum.repos.d/rpmfusion-nonfree.repo &&     sed -i '0,/enabled=1/s//enabled=0/' /etc/yum.repos.d/rpmfusion-nonfree-updates.repo &&     sed -i '0,/enabled=1/s//enabled=0/' /etc/yum.repos.d/rpmfusion-nonfree-updates-testing.repo &&     rpm-ostree install         steam &&     sed -i '0,/enabled=1/s//enabled=0/' /etc/yum.repos.d/rpmfusion-nonfree-steam.repo &&     sed -i '0,/enabled=0/s//enabled=1/' /etc/yum.repos.d/rpmfusion-nonfree.repo &&     sed -i '0,/enabled=0/s//enabled=1/' /etc/yum.repos.d/rpmfusion-nonfree-updates.repo &&     sed -i '0,/enabled=0/s//enabled=1/' /etc/yum.repos.d/rpmfusion-nonfree-updates-testing.repo &&     sed -i '0,/enabled=0/s//enabled=1/' /etc/yum.repos.d/fedora-updates.repo &&     rpm-ostree install         lutris         fluidsynth         fluid-soundfont-gm         qsynth         wxGTK         libFAudio         wine-core.x86_64         wine-core.i686         wine-pulseaudio.x86_64         wine-pulseaudio.i686         winetricks         protontricks         latencyflex-vulkan-layer         vkBasalt.x86_64         vkBasalt.i686         mangohud.x86_64         mangohud.i686         vk_hdr_layer.x86_64         vk_hdr_layer.i686 &&     if grep -q \"kinoite\" <<< \"${BASE_IMAGE_NAME}\"; then         rpm-ostree override remove             gamemode     ; else         rpm-ostree override remove             gamemode &&         rpm-ostree override remove             gnome-shell-extension-gamemode             || true     ; fi &&     sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/winetricks.desktop &&     curl -Lo /tmp/latencyflex.tar.xz $(curl https://api.github.com/repos/ishitatsuyuki/LatencyFleX/releases/latest | jq -r '.assets[] | select(.name| test(\".*.tar.xz$\")).browser_download_url') &&     mkdir -p /tmp/latencyflex &&     tar --no-same-owner --no-same-permissions --no-overwrite-dir --strip-components 1 -xvf /tmp/latencyflex.tar.xz -C /tmp/latencyflex &&     rm -f /tmp/latencyflex.tar.xz &&     cp -r /tmp/latencyflex/wine/usr/lib/wine/* /usr/lib64/wine/ &&     rm -rf /tmp/latencyflex &&     curl -Lo /usr/bin/latencyflex https://raw.githubusercontent.com/KyleGospo/LatencyFleX-Installer/main/install.sh &&     chmod +x /usr/bin/latencyflex &&     sed -i 's@/usr/lib/wine/@/usr/lib64/wine/@g' /usr/bin/latencyflex &&     sed -i 's@\"dxvk.conf\"@\"/usr/share/latencyflex/dxvk.conf\"@g' /usr/bin/latencyflex &&     chmod +x /usr/bin/latencyflex &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:28:50.006232722Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c if grep -q \"kinoite\" <<< \"${BASE_IMAGE_NAME}\"; then         rpm-ostree install             qt &&         rpm-ostree override remove             plasma-welcome &&         rpm-ostree override replace         --experimental         --from repo=copr:copr.fedorainfracloud.org:kylegospo:bazzite             kf6-kio-doc             kf6-kio-widgets-libs             kf6-kio-core-libs             kf6-kio-widgets             kf6-kio-file-widgets             kf6-kio-core             kf6-kio-gui &&         rpm-ostree install             steamdeck-kde-presets-desktop             kdeconnectd             kdeplasma-addons             rom-properties-kf6             joystickwake             ptyxis &&         mkdir -p /tmp/kwin-system76-scheduler-integration &&         curl -Lo /tmp/kwin-system76-scheduler-integration/archive.tar.gz https://github.com/maxiberta/kwin-system76-scheduler-integration/archive/refs/heads/main.tar.gz &&         tar --no-same-owner --no-same-permissions --no-overwrite-dir --strip-components 1 -xvf /tmp/kwin-system76-scheduler-integration/archive.tar.gz -C /tmp/kwin-system76-scheduler-integration &&         kpackagetool6 --type=KWin/Script --global --install /tmp/kwin-system76-scheduler-integration &&         rm -rf /tmp/kwin-system76-scheduler-integration &&         sed -i '/<entry name=\"launchers\" type=\"StringList\">/,/<\\/entry>/ s/<default>[^<]*<\\/default>/<default>preferred:\\/\\/browser,applications:steam.desktop,applications:net.lutris.Lutris.desktop,applications:org.gnome.Ptyxis.desktop,applications:org.kde.discover.desktop,preferred:\\/\\/filemanager<\\/default>/' /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml &&         sed -i '/<entry name=\"favorites\" type=\"StringList\">/,/<\\/entry>/ s/<default>[^<]*<\\/default>/<default>preferred:\\/\\/browser,steam.desktop,net.lutris.Lutris.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop,org.gnome.Ptyxis.desktop,org.kde.discover.desktop,system-update.desktop<\\/default>/' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml &&         sed -i 's@\\[Desktop Action new-window\\]@\\[Desktop Action new-window\\]\\nX-KDE-Shortcuts=Ctrl+Alt+T@g' /usr/share/applications/org.gnome.Ptyxis.desktop &&         sed -i 's@Exec=ptyxis@Exec=kde-ptyxis@g' /usr/share/applications/org.gnome.Ptyxis.desktop &&         sed -i 's@Keywords=@Keywords=konsole;console;@g' /usr/share/applications/org.gnome.Ptyxis.desktop &&         cp /usr/share/applications/org.gnome.Ptyxis.desktop /usr/share/kglobalaccel/org.gnome.Ptyxis.desktop &&         sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/org.kde.konsole.desktop &&         sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/yad-icon-browser.desktop &&         rm -f /usr/share/kglobalaccel/org.kde.konsole.desktop &&         systemctl enable kde-sysmonitor-workaround.service     ; else         rpm-ostree override replace         --experimental         --from repo=copr:copr.fedorainfracloud.org:kylegospo:bazzite             gnome-shell &&         rpm-ostree override replace         --experimental         --from repo=copr:copr.fedorainfracloud.org:ublue-os:staging             vte291             vte-profile &&         rpm-ostree install             ptyxis             nautilus-open-any-terminal             nautilus-gsconnect             steamdeck-backgrounds             gnome-randr-rust             gnome-shell-extension-user-theme             gnome-shell-extension-gsconnect             gnome-shell-extension-system76-scheduler             gnome-shell-extension-compiz-windows-effect             gnome-shell-extension-just-perfection             gnome-shell-extension-blur-my-shell             gnome-shell-extension-hanabi             gnome-shell-extension-gamerzilla             gnome-shell-extension-bazzite-menu             gnome-shell-extension-hotedge             gnome-shell-extension-caffeine             rom-properties-gtk3             openssh-askpass &&         rpm-ostree override remove             gnome-software-rpm-ostree             gnome-classic-session             gnome-classic-session-xsession             gnome-tour             gnome-extensions-app             gnome-terminal-nautilus             gnome-initial-setup &&         sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/org.gnome.Terminal.desktop &&         sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/org.gnome.SystemMonitor.desktop &&         systemctl enable dconf-update.service     ; fi &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:29:42.568443868Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree install         gamescope.x86_64         gamescope-libs.i686         gamescope-shaders         rocm-hip         rocm-opencl         rocm-clinfo         waydroid         cage         wlr-randr &&     sed -i~ -E 's/=.\\$\\(command -v (nft|ip6?tables-legacy).*/=/g' /usr/lib/waydroid/data/scripts/waydroid-net.sh &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:29:42.693092385Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:3320b144396ac104186a7f9c58fda4508a74b0bc1f6c417d2bb62c1772755afd in / ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:30:47.96118187Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c /usr/libexec/containerbuild/build-initramfs &&     /usr/libexec/containerbuild/image-info &&     rm -f /etc/profile.d/toolbox.sh &&     sed -i 's@/usr/bin/steam@/usr/bin/bazzite-steam@g' /usr/share/applications/steam.desktop &&     sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/fish.desktop &&     sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/nvtop.desktop &&     sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/btop.desktop &&     rm -f /usr/share/vulkan/icd.d/lvp_icd.*.json &&     mkdir -p \"/usr/etc/profile.d/\" &&     ln -s \"/usr/share/ublue-os/firstboot/launcher/login-profile.sh\"     \"/usr/etc/profile.d/ublue-firstboot.sh\" &&     mkdir -p \"/usr/etc/xdg/autostart\" &&     cp \"/usr/share/applications/discover_overlay.desktop\" \"/usr/etc/xdg/autostart/discover_overlay.desktop\" &&     sed -i 's@Exec=discover-overlay@Exec=/usr/bin/bazzite-discover-overlay@g' /usr/etc/xdg/autostart/discover_overlay.desktop &&     sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/discover_overlay.desktop &&     cp \"/usr/share/ublue-os/firstboot/yafti.yml\" \"/etc/yafti.yml\" &&     echo \"import \\\"/usr/share/ublue-os/just/80-bazzite.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/81-bazzite-fixes.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/82-bazzite-apps.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/82-bazzite-sunshine.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/82-bazzite-waydroid.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/83-bazzite-audio.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/84-bazzite-virt.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/85-bazzite-image.just\\\"\" >> /usr/share/ublue-os/justfile &&     echo \"import \\\"/usr/share/ublue-os/just/90-bazzite-de.just\\\"\" >> /usr/share/ublue-os/justfile &&     pip install --prefix=/usr yafti &&     sed -i 's/stage/none/g' /etc/rpm-ostreed.conf &&     if [[ \"${KERNEL_FLAVOR}\" =~ \"fsync\" ]]; then         sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_sentry-kernel-fsync.repo     ; fi &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-bazzite.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-bazzite-multilib.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_ublue-os-staging.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-system76-scheduler.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-latencyflex.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-obs-vkcapture.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-wallpaper-engine-kde-plugin.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-vk_hdr_layer.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_ycollet-audinux.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-rom-properties.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-joycond.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-webapp-manager.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_hhd-dev-hhd.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_che-nerd-fonts.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_sentry-switcheroo-control_discrete.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_mavit-discover-overlay.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_hikariknight-looking-glass-kvmfr.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/tailscale.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/charm.repo &&     sed -i 's/#DefaultTimeoutStopSec.*/DefaultTimeoutStopSec=15s/' /usr/lib/systemd/user.conf &&     sed -i 's/#DefaultTimeoutStopSec.*/DefaultTimeoutStopSec=15s/' /usr/lib/systemd/system.conf &&     mkdir -p /usr/etc/flatpak/remotes.d &&     curl -Lo /usr/etc/flatpak/remotes.d/flathub.flatpakrepo https://dl.flathub.org/repo/flathub.flatpakrepo &&     systemctl enable com.system76.Scheduler.service &&     systemctl enable tuned.service &&     systemctl enable btrfs-dedup@var-home.timer &&     systemctl enable displaylink.service &&     systemctl enable input-remapper.service &&     systemctl unmask bazzite-flatpak-manager.service &&     systemctl enable bazzite-flatpak-manager.service &&     systemctl disable rpm-ostreed-automatic.timer &&     systemctl enable ublue-update.timer &&     systemctl enable gamescope-workaround.service &&     systemctl enable waydroid-workaround.service &&     systemctl enable incus-workaround.service &&     systemctl enable bazzite-hardware-setup.service &&     systemctl enable tailscaled.service &&     systemctl enable dev-hugepages1G.mount &&     systemctl enable joycond.service &&     systemctl --global enable bazzite-user-setup.service &&     systemctl --global enable podman.socket &&     systemctl --global enable systemd-tmpfiles-setup.service &&     if grep -q \"kinoite\" <<< \"${BASE_IMAGE_NAME}\"; then         sed -i '/^PRETTY_NAME/s/Kinoite/Bazzite/' /usr/lib/os-release &&         systemctl --global enable com.system76.Scheduler.dbusproxy.service     ; else         sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/yad-icon-browser.desktop &&         sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/com.github.rafostar.Clapper.desktop &&         sed -i '/^PRETTY_NAME/s/Silverblue/Bazzite GNOME/' /usr/lib/os-release     ; fi &&     systemctl disable waydroid-container.service &&     sed -i 's@Exec=waydroid first-launch@Exec=/usr/bin/waydroid-launcher first-launch\\nX-Steam-Library-Capsule=/usr/share/applications/Waydroid/capsule.png\\nX-Steam-Library-Hero=/usr/share/applications/Waydroid/hero.png\\nX-Steam-Library-Logo=/usr/share/applications/Waydroid/logo.png\\nX-Steam-Library-StoreCapsule=/usr/share/applications/Waydroid/store-logo.png\\nX-Steam-Controller-Template=Desktop@g' /usr/share/applications/Waydroid.desktop &&     curl -Lo /usr/bin/waydroid-choose-gpu https://raw.githubusercontent.com/KyleGospo/waydroid-scripts/main/waydroid-choose-gpu.sh &&     chmod +x /usr/bin/waydroid-choose-gpu &&     ostree container commit",
+                    "comment": "FROM ghcr.io/ublue-os/kinoite-main:40"
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055843355Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_NAME=bazzite-deck",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055857621Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055869734Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055884341Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055897677Z",
+                    "created_by": "/bin/sh -c #(nop) ARG IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055913446Z",
+                    "created_by": "/bin/sh -c #(nop) ARG BASE_IMAGE_NAME=kinoite IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.055940717Z",
+                    "created_by": "/bin/sh -c #(nop) ARG BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.318234398Z",
+                    "created_by": "/bin/sh -c #(nop) COPY multi:36f020e2a694706de9b5d28d2e1f028f804c463251517fa5218089f5e3223721 in / ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:31:36.652644381Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_kylegospo-bazzite.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_kylegospo-bazzite-multilib.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_kylegospo-latencyflex.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_kylegospo-obs-vkcapture.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_kylegospo-wallpaper-engine-kde-plugin.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_hhd-dev-hhd.repo &&     sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_ycollet-audinux.repo &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:32:14.544014533Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c if grep -q \"kinoite\" <<< \"${BASE_IMAGE_NAME}\"; then         rpm-ostree override remove             steamdeck-kde-presets-desktop &&         rpm-ostree install             steamdeck-kde-presets     ; else         rpm-ostree install             steamdeck-gnome-presets             gnome-shell-extension-caribou-blocker             sddm &&         curl -Lo /usr/etc/dxvk-example.conf https://raw.githubusercontent.com/doitsujin/dxvk/master/dxvk.conf     ; fi &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:33:47.806566821Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree install     jupiter-fan-control     jupiter-hw-support-btrfs     galileo-mura     steamdeck-dsp     powerbuttond     hhd     hhd-ui     adjustor     vpower     ds-inhibit     steam_notif_daemon     ryzenadj     sdgyrodsu     ibus-pinyin     ibus-table-chinese-cangjie     ibus-table-chinese-quick     socat     zstd     zenity     newt     qt6-qtvirtualkeyboard     xorg-x11-server-Xvfb     python-vdf     python-crcmod &&     git clone https://gitlab.com/evlaV/jupiter-dock-updater-bin.git         --depth 1         /tmp/jupiter-dock-updater-bin &&     mv -v /tmp/jupiter-dock-updater-bin/packaged/usr/lib/jupiter-dock-updater /usr/libexec/jupiter-dock-updater &&     rm -rf /tmp/jupiter-dock-updater-bin &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:35:26.297174503Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c rpm-ostree override replace     --experimental     --from repo=copr:copr.fedorainfracloud.org:kylegospo:bazzite         upower         upower-libs &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:36:05.658162071Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c curl -Lo /tmp/steam-jupiter.pkg.tar.zst https://steamdeck-packages.steamos.cloud/archlinux-mirror/jupiter-main/os/x86_64/steam-jupiter-stable-1.0.0.79-1-x86_64.pkg.tar.zst &&     mkdir -p /usr/etc/first-boot &&     tar --no-same-owner --no-same-permissions --no-overwrite-dir -I zstd -xvf /tmp/steam-jupiter.pkg.tar.zst usr/lib/steam/bootstraplinux_ubuntu12_32.tar.xz -o > /usr/etc/first-boot/bootstraplinux_ubuntu12_32.tar.xz &&     rm -f /tmp/steam-jupiter.pkg.tar.zst &&     rpm-ostree install         gamescope-session-plus         gamescope-session-steam &&     ostree container commit",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-04-27T22:36:09.250678056Z",
+                    "created_by": "|7 BASE_IMAGE_NAME=kinoite FEDORA_MAJOR_VERSION=40 IMAGE_BRANCH=main IMAGE_FLAVOR=main IMAGE_NAME=bazzite-deck IMAGE_VENDOR=ublue-os KERNEL_FLAVOR=fsync /bin/sh -c /usr/libexec/containerbuild/image-info &&     mkdir -p \"/usr/etc/xdg/autostart\" &&     cp \"/usr/share/applications/steam.desktop\" \"/usr/etc/xdg/autostart/steam.desktop\" &&     sed -i 's@/usr/bin/bazzite-steam %U@/usr/bin/bazzite-steam -silent %U@g' /usr/etc/xdg/autostart/steam.desktop &&     ln -s /usr/bin/steamos-logger /usr/bin/steamos-info &&     ln -s /usr/bin/steamos-logger /usr/bin/steamos-notice &&     ln -s /usr/bin/steamos-logger /usr/bin/steamos-warning &&     if grep -q \"kinoite\" <<< \"${BASE_IMAGE_NAME}\"; then         sed -i 's/Exec=.*/Exec=systemctl start return-to-gamemode.service/' /etc/skel/Desktop/Return.desktop &&         rm -f /usr/share/applications/com.github.maliit.keyboard.desktop     ; fi &&     sed -i 's@\\[Desktop Entry\\]@\\[Desktop Entry\\]\\nNoDisplay=true@g' /usr/share/applications/input-remapper-gtk.desktop &&     cp \"/usr/share/ublue-os/firstboot/yafti.yml\" \"/usr/etc/yafti.yml\" &&     sed -i 's/#HandlePowerKey=poweroff/HandlePowerKey=suspend/g' /usr/lib/systemd/logind.conf &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-bazzite.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-bazzite-multilib.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-latencyflex.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-obs-vkcapture.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_kylegospo-wallpaper-engine-kde-plugin.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_hhd-dev-hhd.repo &&     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/_copr_ycollet-audinux.repo &&     if grep -q \"silverblue\" <<< \"${BASE_IMAGE_NAME}\"; then         systemctl disable gdm.service &&         systemctl enable sddm.service     ; fi &&     systemctl enable bazzite-autologin.service &&     systemctl enable wireplumber-workaround.service &&     systemctl enable wireplumber-sysconf.service &&     systemctl enable pipewire-workaround.service &&     systemctl enable pipewire-sysconf.service &&     systemctl enable btrfs-dedup@run-media-mmcblk0p1.timer &&     systemctl enable ds-inhibit.service &&     systemctl enable cec-onboot.service &&     systemctl enable cec-onpoweroff.service &&     systemctl enable cec-onsleep.service &&     systemctl enable bazzite-tdpfix.service &&     systemctl --global enable steam-web-debug-portforward.service &&     systemctl --global disable sdgyrodsu.service &&     systemctl disable input-remapper.service &&     systemctl disable ublue-update.timer &&     systemctl disable jupiter-fan-control.service &&     systemctl disable vpower.service &&     systemctl disable jupiter-biosupdate.service &&     systemctl disable jupiter-controller-update.service &&     systemctl disable batterylimit.service &&     ostree container commit"
+               },
+               {
+                    "created": "2024-04-27T22:37:00.173518444Z",
+                    "created_by": "/bin/sh",
+                    "comment": "FROM localhost/bazzite-deck:40"
+               },
+               {
+                    "created": "2024-06-29T00:26:59.376747903Z",
+                    "created_by": "/bin/sh -c sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_hhd-dev-hhd.repo",
+                    "comment": "FROM ghcr.io/ublue-os/bazzite-deck:40-20240427"
+               },
+               {
+                    "created": "2024-06-29T00:29:01.110165224Z",
+                    "created_by": "/bin/sh -c rpm-ostree override replace --experimental     --from repo=copr:copr.fedorainfracloud.org:hhd-dev:hhd     hhd hhd-ui adjustor python-fuse",
+                    "comment": "FROM 19afc65ffe03"
+               },
+               {
+                    "created": "2024-06-29T00:30:11.418490149Z",
+                    "created_by": "/bin/sh -c mkdir -p usr/lib/systemd/system/hhd@.service.d/",
+                    "comment": "FROM 2b4c6f01ed20"
+               },
+               {
+                    "created": "2024-06-29T00:31:18.41955958Z",
+                    "created_by": "/bin/sh -c #(nop) COPY file:5803222b1b335bc88da5eeba5122bd01897f8f96dc9a1ba16211ea454922e952 in /usr/lib/systemd/system/hhd@.service.d/override.conf ",
+                    "comment": "FROM cb16cbffb79f"
+               },
+               {
+                    "created": "2024-07-05T08:27:04.479329162Z",
+                    "created_by": "/bin/sh -c #(nop) ARG DC_VERSION",
+                    "comment": "FROM ghcr.io/antheas/bazzite-slim:40-20240427-og",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:04.633893496Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL io.artifacthub.package.logo-url=https://raw.githubusercontent.com/ublue-os/bazzite/main/repo_content/logo.png",
+                    "comment": "FROM 240422ecc4ce",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:04.770420601Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL io.artifacthub.package.readme-url=https://github.com/hhd-dev/bazzite-dc",
+                    "comment": "FROM 069e2f1fcf96",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:04.910644812Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL org.opencontainers.image.description=\"Bazzite: Director's Cut is a Bazzite edition based on a stable build of bazzite-deck, with an up-to-date Handheld Daemon + other niceties.\"",
+                    "comment": "FROM 2a0f0aebe072",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:05.068780602Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL org.opencontainers.image.licenses=Apache-2.0",
+                    "comment": "FROM 4f01c02ee9f9",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:05.237453247Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL org.opencontainers.image.version=${DC_VERSION}",
+                    "comment": "FROM 72b017feca08",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:05.408112305Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL org.opencontainers.image.source=https://github.com/hhd-dev/bazzite-dc",
+                    "comment": "FROM b49ce6f70b76",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:05.566327843Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL org.opencontainers.image.title=bazzite-dc",
+                    "comment": "FROM 3a8e49330c52",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2024-07-05T08:27:05.718145741Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL org.opencontainers.image.url=https://github.com/hhd-dev/bazzite-dc",
+                    "comment": "FROM e24f32f7db52",
+                    "empty_layer": true
+               }
+          ],
+          "NamesHistory": [
+               "localhost/bazzite-dc:latest"
+          ]
+     }
+]
