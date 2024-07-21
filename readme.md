@@ -10,3 +10,9 @@ Most of the issues with the new gamescope are ironed out, and we are preparing
 touch gestures as part of Handheld Daemon.
 When that happens, the cherry-picked version of Bazzite will be bumped, and we
 keep going as usual.
+
+## Installation Instructions
+Run the following command from a Bazzite install:
+```bash
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/hhd-dev/bazzite-dc:stable
+```
