@@ -3,7 +3,7 @@ ARG BAZZITE_TAG=40-20240427
 FROM ghcr.io/ublue-os/bazzite-deck:${BAZZITE_TAG}
 
 ARG BAZZITE_TAG
-ARG REVISION_ID=7
+ARG REVISION_ID=8   
 ARG DC_TAG=dc${BAZZITE_TAG}.${REVISION_ID}
 
 # Cache invalidate on revision change
